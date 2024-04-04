@@ -12,6 +12,7 @@ export default function Nav() {
           <Link href="/contact">Contact</Link>
           <Link href="/about">About</Link>
           <Link href="/testamonials">Testamonials</Link>
+          <Link href="#freesalescall">BOOK A FREE SALES CALL</Link>
       </div>
     </>  
   )
