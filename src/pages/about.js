@@ -1,6 +1,7 @@
 import styles from "@/app/page.module.css";
 import Nav from '@/app/components/Nav';
 import "@/app/globals.css";
+import About from "@/app/components/About1"
 
 export default () => (
     <>
@@ -8,8 +9,8 @@ export default () => (
             <div require className="App">
                 <header className="App-header">
                     <Nav/>
+                    <About/>
                 </header>
-                <p>About</p>
             </div>
         </main>
     </>

@@ -6,7 +6,7 @@ export default function Nav() {
     <>
       <div className={styles.topnav}>
           <Logo />
-          <Link href="/">Imperium</Link>
+          <Link href="/"><b>Gopher</b></Link>
           <Link href="/news">News</Link>
           <Link href="/pricing">Pricing</Link>
           <Link href="/contact">Contact</Link>
