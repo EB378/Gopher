@@ -9,15 +9,20 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className="App">
-      <header className="App-header">
-        <Nav/>
+        <header className="App-header">
+          <Nav/>
+        </header>
         <Box1/>
         <Box2/>
         <Box3/>
-        <p>
-          Server
-        </p>
-      </header>
+        <div>
+        <footer className="App-footer">
+          <p>
+            Server
+          </p>
+        </footer>
+        </div>
+  
       </div>
     </main>
   );

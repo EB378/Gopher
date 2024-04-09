@@ -96,6 +96,11 @@ code {
 
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 
 .App-logo {
@@ -111,6 +116,16 @@ code {
 
 .App-header {
   background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-footer {
+  background-color: #000000;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: stretch;

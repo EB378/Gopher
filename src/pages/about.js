@@ -9,8 +9,8 @@ export default () => (
             <div require className="App">
                 <header className="App-header">
                     <Nav/>
-                    <About/>
                 </header>
+                <About/>
             </div>
         </main>
     </>
