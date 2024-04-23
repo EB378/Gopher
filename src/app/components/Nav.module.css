@@ -26,9 +26,8 @@
   color: white;
 }
 .flogo {
-  width: 3.5%;
-  display: fixed;
-  justify-content: center;
+  width: 3%;
+  display: block;
   align-items: center;
   float: left;
   margin: 0.25%;

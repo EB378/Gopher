@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Old English';
+  src: url("./1.ttf");
+}
+
 .oa1 {
     background-image: url("./tes_img.jpeg");
     left: 0;
@@ -14,4 +19,9 @@
 
   .p {
     color: rgb(255, 208, 0);
+  }
+  .oef {
+    font-family: 'Old English';
+    font-size: 130%;
+    vertical-align: 13%;
   }
