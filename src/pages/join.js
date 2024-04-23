@@ -5,7 +5,7 @@ import RootLayout from "@/app/layout";
 export default () => (
     <>
     <RootLayout>
-        <p>About</p>
+        <p>Join</p>
     </RootLayout>
     </>
 );

@@ -1,18 +1,20 @@
-import styles from './Nav.module.css'
-import Logo from "./Logo";
+import styles from './Nav.module.css' 
 import Link from 'next/link'
 export default function Nav() {
   return (
     <>
       <div className={styles.topnav}>
-          <Logo />
-          <Link href="/"><b>Gopher</b></Link>
-          <Link href="/news">News</Link>
-          <Link href="/pricing">Pricing</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/about">About</Link>
-          <Link href="/testamonials">Testamonials</Link>
-          <Link href="#freesalescall">BOOK A FREE SALES CALL</Link>
+        <img src='/Gopher.png' alt="Netlify Logo" href="#home" className={styles.flogo} />
+        <Link href="/">Gopher</Link>
+        <Link href="/about">About</Link>
+        <Link href="/clients">Target Audience</Link>
+        <Link href="/testamonials">Testamonials</Link>
+        <Link href="/contact">Contact</Link>
+        <div className={styles.rightalignment}>
+          <Link href="/pricing">Plans</Link>
+          <Link href="/join">Join</Link>
+          <Link href="#login">Log In</Link>
+        </div>
       </div>
     </>  
   )

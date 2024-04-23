@@ -1,0 +1,15 @@
+.App_footer {
+    background-color: #000000;
+    color: #fff;
+    font-size: calc(10px + 1.5vmin);
+    overflow: hidden;
+    }
+
+.flogo {
+    width: 7.5%;
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 0.25%;
+  }
