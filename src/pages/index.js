@@ -6,10 +6,12 @@ import RootLayout from "@/app/layout";
 
 export default function Home() {
   return (
+    <>
       <RootLayout>
         <Box1/>
         <Box2/>
         <Box3/>
       </RootLayout>
+    </>
   );
 }
